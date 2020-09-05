@@ -5,7 +5,7 @@ Make a ES Module for NPM and a dist file for &lt;script> at the same time
 
 When making open source libraries, you don't want to limit your users. I believe that any simple library should be installable in at least two ways:
 1. `npm install amazingLib`
-2. `<script src="https://amazingCDN.com/amazingLib.js"></script>
+2. `<script src="https://amazingCDN.com/amazingLib.js"></script>`
 
 But obviously you don't want to develop two separate codebases.
 
