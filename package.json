@@ -1,11 +1,14 @@
 {
   "name": "cosmopolite",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "🤝 Make a ES Module for NPM and a dist file for <script> at the same time",
   "repository": "git@github.com:mvoloskov/cosmopolite.git",
   "main": "src/index.js",
   "author": "mvoloskov",
   "license": "BSL-1.0",
+  "files": [
+    "/src"
+  ],
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c --watch",
